@@ -1,0 +1,56 @@
+#buscador{
+    display: inline;
+}
+
+#botonBuscar:hover{
+    background-color: rgb(61, 210, 186);
+    color: white;
+}
+
+#botonBuscar{
+    background-color: white;
+    border: 1px solid rgb(61, 210, 186);
+    color: rgb(61, 210, 186);
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+
+
+#cabecerabuscador{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    left: 0;
+    border-bottom: 2px solid rgb(233, 232, 232);
+    height: 100px;
+    z-index: 10;
+    display: block;
+}
+
+#botonInicioSesion{
+    background-color: rgb(61, 210, 186);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+
+
+}
+
+#botonSubirProducto:hover{
+    color: rgb(61, 210, 186);
+    background-color: white;
+}
+
+#botonSubirProducto{
+    border-radius: 20px;
+    background-color: rgb(61, 210, 186);
+    color: white;
+    border-color:rgb(233, 232, 232);
+    font-weight: bold;
+
+
+}
+

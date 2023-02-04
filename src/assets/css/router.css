@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    position: fixed;
+    width: 13rem;
+    height: 100%;
+    border-right: 1px solid rgb(206, 206, 206);
+}
+
+#correoCuenta > p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#listasidebar{
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-top: 60px;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.ocultar{
+    display: none !important;
+}

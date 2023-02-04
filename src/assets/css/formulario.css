@@ -1,0 +1,195 @@
+h2{
+    text-align: center;
+    display: block;
+}
+
+
+#body{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    z-index: 0;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.secciontitulo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.seccionformulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    gap: 16px;
+    overflow-y: initial;
+    overflow-x: initial;
+}
+
+#tituloformulario{
+    text-align: center;
+}
+
+#listaprincipal{
+    list-style-type: none;
+    justify-content: center;
+   /*margin-left:5px;
+    margin-right:5px;*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 100px;
+    grid-auto-rows: 400px;
+    align-items: center;
+    
+}
+
+#lista{
+    display: inline-block;
+    gap: 16px;
+    overflow-y: initial;
+    overflow-x: initial;
+    margin:10px;
+    margin-bottom: 100px;
+    flex: 0 1 20%;
+    align-items: center;
+	justify-content: center;
+    
+}
+
+.class{
+    width: 200px;
+    height: 200px;
+}
+
+#card:hover{
+    transform: scale(1.1); 
+
+}
+
+#titulo{
+    height:100px;
+    width:150px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.siguiente{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#botonSiguiente{
+    background-color: white;
+    border: 1px solid rgb(61, 210, 186);
+    color: rgb(61, 210, 186);
+    border-radius: 20px;
+}
+
+#botonSiguiente:hover{
+    background-color: rgb(61, 210, 186);
+    color: white;
+}
+
+#precio{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    height: 50px;
+}
+
+@-webkit-keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+
+#precio:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    background-color: rgb(61, 210, 186);
+    color: white;
+    cursor: pointer;
+    border-color: white;
+
+}
+
+#favorito{
+    width: 20px;
+}

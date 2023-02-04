@@ -1,0 +1,33 @@
+#botonEntrarCorreo{
+    background-color: rgb(61, 210, 186);
+}
+
+h2{
+    text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+    color: grey;
+    margin-bottom: 65px;
+}
+
+#textoIniciaSesion{
+    text-align: center;
+    color: grey;
+}
+
+#span{
+    color: rgb(61, 210, 186);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.ocultar{
+    display: none !important;
+}
+
+#passwordLogin{
+    margin-top: 50px;
+}
